@@ -190,10 +190,13 @@ a.more {
   height: 537px;
 }
 
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
   .hero .hero-img-wrap img {
-    right: 0px;
-    left: -100px;
+    
+    width: 80%;
+    height: 70%;
+    padding-left: 50px;
   }
 }
 
@@ -203,6 +206,7 @@ a.more {
     top: -80px;
     position: absolute;
     right: -50px;
+    /* width: 30%; */
   }
 }
 
@@ -211,6 +215,7 @@ a.more {
     left: 0px;
     top: -80px;
     right: -100px;
+    
   }
 }
 
